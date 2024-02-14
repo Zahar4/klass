@@ -1,0 +1,13 @@
+#2
+x = int(input("Введите число"))
+y = int(input("Введите число"))
+if x > y :
+    max = x
+    min = y
+else: 
+    max = y
+    min = x
+    
+    z = (min + 0,5) / (1 + max+-2)
+    print (z)
+    
