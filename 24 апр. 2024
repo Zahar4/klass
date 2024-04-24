@@ -1,0 +1,36 @@
+#1 
+a= float (input())
+if a % 1 ==0:
+    a = int(a)
+n = int(input())
+f = a**n
+print(f'{f} = {a}^{n}')
+
+#2
+a = int(input())
+v = 0 
+if a > 1: 
+    far i in range(1,a+1):
+        if a%i==0:
+            v+=1 
+if v ==2:
+    print(f" {a} prest")
+else:
+    print(f" {a} neprest")
+
+#3
+n = int(input('товар'))
+z = int(input('стоимость'))
+s = int(input('кошелёк'))
+k = int(input('количество'))
+f = n*z#стоимость всего товара
+c = s*k#денег у покупателей
+while c>z:
+    if s-z ==0:
+
+#4
+a = [0,3,2,1,3,2,2,1,1,0,2,1,2]
+print("изучал английский",f.count(1))
+print("изучал немецкий",а.count(2))
+print("изучал фрацузский",а.count(3))
+print("ничего не изучал, как я",а.count(0))
